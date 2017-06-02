@@ -1,0 +1,19 @@
+{
+  "name": "spotify-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/ksmai/spotify-token",
+  "author": "ksmai <kasingmai@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
+    "request": "^2.81.0"
+  }
+}
